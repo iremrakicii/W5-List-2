@@ -1,33 +1,36 @@
-# Kahve Menüsü Oluşturma Konsol Uygulaması
+# Kahve İsimleri Programı
 
-Bu uygulama, kullanıcıdan alınan girdilerle bir kahve menüsü oluşturur ve bu menüyü numaralandırılmış şekilde ekrana yazdırır. Kullanıcıdan beş farklı kahve ismi girmesi istenir ve ardından bu isimler bir liste olarak ekrana gösterilir.
+Bu, kullanıcıdan beş kahve ismi girmesini isteyen ve ardından bu isimleri ekrana yazdıran basit bir C# konsol uygulamasıdır.
 
-## Program Yapısı
+## Özellikler
 
-Bu program, `Program` sınıfında yer alan `Main` metodunda çalışmaktadır. Uygulama, kullanıcının tercih ettiği kahve isimlerini sırasıyla ister, bu isimleri bir listeye ekler ve sonunda listeyi numaralandırarak ekrana yazdırır.
+- Kullanıcıdan beş kahve ismi girmesini ister.
+- Girilen kahve isimlerini ekrana listeler.
 
-### Program Akışı
+## Başlarken
 
-1. Kullanıcıdan sırasıyla beş farklı kahve ismi girmesi istenir.
-2. Girilen kahve isimleri bir listeye eklenir.
-3. Liste ekrana numaralı şekilde yazdırılır.
+### Gereksinimler
 
-### Örnek Çalışma
+- Bilgisayarınızda .NET SDK kurulu olmalıdır.
 
-Program çalıştırıldığında konsolda şu adımlar görüntülenecektir:
+### Programı Çalıştırma
 
-```plaintext
-Kahve menümüzü oluşturmak için tercihlerinize ihtiyacımız var!
-Lütfen tercih ettiğiniz kahve için giriş yapınız.
-Kahve1: Latte
-Kahve2: Espresso
-Kahve3: Mocha
-Kahve4: Americano
-Kahve5: Türk Kahvesi
+1. Bu projeyi klonlayın veya kodu yeni bir C# konsol uygulamasına yapıştırın.
+2. Projeyi IDE'nizde veya terminalde açın.
+3. Aşağıdaki komutla programı çalıştırın:
 
-Girilen Kahve İsimleri:
-1 - Latte
-2 - Espresso
-3 - Mocha
-4 - Americano
-5 - Türk Kahvesi
+plaintext
+
+5 Adet Kahve İsmi Giriniz: 
+Kahve 1: Latte
+Kahve 2: Espresso
+Kahve 3: Cappuccino
+Kahve 4: Mocha
+Kahve 5: Americano
+---------------------------------
+Girilen Kahve İsimleri: 
+Latte
+Espresso
+Cappuccino
+Mocha
+Americano
