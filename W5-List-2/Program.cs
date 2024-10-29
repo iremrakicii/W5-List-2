@@ -8,7 +8,7 @@
 
         Console.WriteLine("5 Adet Kahve İsmi Giriniz: ");
 
-        int i = 1;
+        int coffeeCounter = 1;
         for (int i = 0; i < 5; i++)
         {
 
